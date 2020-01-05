@@ -5,10 +5,6 @@ import {
 import Layout from './Layout/layout';
 import Login from './Layout/login';
 
-
-
-
-
 function App() {
   const [loginData] = useState(JSON.parse(localStorage.getItem('user')));
   return (
@@ -27,8 +23,6 @@ function App() {
         }  
       
       </div>
-   
-
   );
 
 }
