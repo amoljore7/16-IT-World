@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+
 const HomePage = () => {
 
     const [userData, setUserData] = useState(0);
@@ -16,8 +17,9 @@ const HomePage = () => {
     }
     return (
         <React.Fragment>
-            Home Page
+            
                 <button onClick={loginhandle}>Login</button>
+         
         </React.Fragment>
     )
 }
