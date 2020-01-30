@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {
     Input as InputIcon,
     Menu as MenuIcon,
